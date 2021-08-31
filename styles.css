@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+body{ 
+    background-image: url('dark2.jpg');
+   }
+
+h1 {
+    text-align: center;
+    padding-top: 60px;
+    font-family: 'Lato', sans-serif;
+    color: rgb(216, 199, 194);
+
+}
+
+ul{
+    padding-left: 35px;
+}
+
+.img {
+    background-image: url("TOKYO-GHOUL.jpg") ;
+    background-size: contain;
+    width: 250px;
+    height: 370px;
+    border-radius: 3px;
+    border: 5px solid black;
+    margin-top: 0.1px;
+    float:left;
+    
+}
+
+
+
+#box{ 
+    margin-top: 40px;
+}
+
+#Card {
+    background-color: #6969694b;
+    width: 800px;
+    height: 500px;
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-left: 20px;
+    padding-bottom: 50px;
+    border-top-width: 5px;
+    margin-top: 80px;
+    margin-bottom: 100px;
+    margin-left: 240px;
+    margin-right: 50px;
+}
+
+#paragraphs {
+    padding-left: 250px;
+}
+
+#bookname {
+    color: rgb(216, 199, 194);
+    font-family: 'Dosis', sans-serif;
+    font-size: x-large;
+    margin-bottom: 3px;
+    margin-left: 33px;
+
+}
+
+#authorname{
+    color: rgb(185, 174, 171);
+    font-family: 'Lato', sans-serif;
+    margin-top: 3px;
+    margin-left: 39px;
+}
+
+.description {
+    color: rgb(245, 222, 222);
+    line-height: 25px;
+    width: 90%;
+    margin-left: 30px;
+    margin-top: 30px ;
+    font-size: large;
+    text-align: justify;
+    font-family: 'Fjalla One', sans-serif;
+    font-style: italic;
+    
+}
+
+.stars{
+    color: yellow;
+}
+
+.Purchase{
+    background-color: rgb(119, 7, 7);
+    color: rgb(212, 198, 194);
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin-left: 450px;
+    transition-duration: 1s;
+    cursor: pointer;
+    border: 2px solid rgb(17, 17, 17);
+    border-radius: 5px;
+    width: 200px;
+    height: 80px;
+    font-family: 'Lato', sans-serif;
+}
+
+.Purchase:hover {
+    background-color: rgb(65, 3, 3);
+    color: white;
+    font-size: x-large;
+    width: 210px;
+    height: 90px;
+    font-family: 'Lato', sans-serif;
+  }
+
+  .img:hover {
+    background-image:url("kaneki.jpg") ;
+    border-radius: 3px;
+    border: 5px solid black;
+    } 
+ 
